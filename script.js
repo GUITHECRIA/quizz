@@ -199,6 +199,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         resultContainer.textContent = resultMessage;
         resultContainer.classList.add('animate__animated', 'animate__fadeIn');
+         // Reproduzir o som do sino
+    const bellSound = document.getElementById('bellSound');
+    bellSound.play();
     }
 
     function resetQuiz() {
